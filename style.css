@@ -117,7 +117,7 @@ span {
 .links {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 5px;
 }
 
 .ligar {
@@ -130,6 +130,11 @@ span {
     background-color: rgb(40, 40, 40);
     text-decoration: none;
     font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.ligar:hover {
+    transform:scale(1.01);
 }
 
 .zap {
@@ -142,4 +147,9 @@ span {
     background-color: #00a741;
     text-decoration: none;
     font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.zap:hover {
+    transform:scale(1.01);
 }
